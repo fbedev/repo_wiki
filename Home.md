@@ -25,13 +25,18 @@
 
 1. [System Architecture](System-Architecture)
 2. [Web UI](Web-UI)
-3. [Runtime Modes](Runtime-Modes)
-4. [Configuration](Configuration)
-5. [Script Integration](Script-Integration)
-6. [Tools and Agents](Tools-and-Agents)
-7. [PDF and Mermaid Pipeline](PDF-and-Mermaid-Pipeline)
-8. [Operations and Deployment](Operations-and-Deployment)
-9. [Troubleshooting](Troubleshooting)
+3. [Installation](Installation)
+4. [CLI Reference](CLI-Reference)
+5. [Python Embedding](Python-Embedding)
+6. [ASGI and Uvicorn](ASGI-and-Uvicorn)
+7. [Runtime Modes](Runtime-Modes)
+8. [Configuration](Configuration)
+9. [Script Integration](Script-Integration)
+10. [Production Hardening](Production-Hardening)
+11. [Tools and Agents](Tools-and-Agents)
+12. [PDF and Mermaid Pipeline](PDF-and-Mermaid-Pipeline)
+13. [Operations and Deployment](Operations-and-Deployment)
+14. [Troubleshooting](Troubleshooting)
 
 ## 安全原則
 
@@ -43,6 +48,10 @@
 
 如果你的重點是「如何從腳本或程式整合」，請優先閱讀：
 
+- [Installation](Installation)
+- [CLI Reference](CLI-Reference)
+- [Python Embedding](Python-Embedding)
+- [ASGI and Uvicorn](ASGI-and-Uvicorn)
 - [Script Integration](Script-Integration)
 - [Configuration](Configuration)
 - [Runtime Modes](Runtime-Modes)
