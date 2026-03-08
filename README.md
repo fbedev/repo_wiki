@@ -11,6 +11,7 @@
 - [System Architecture](System-Architecture.md)
 - [Web UI](Web-UI.md)
 - [Runtime Modes](Runtime-Modes.md)
+- [Script Integration](Script-Integration.md)
 - [Configuration](Configuration.md)
 - [Tools and Agents](Tools-and-Agents.md)
 - [PDF and Mermaid Pipeline](PDF-and-Mermaid-Pipeline.md)

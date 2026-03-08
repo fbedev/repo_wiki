@@ -27,10 +27,11 @@
 2. [Web UI](Web-UI)
 3. [Runtime Modes](Runtime-Modes)
 4. [Configuration](Configuration)
-5. [Tools and Agents](Tools-and-Agents)
-6. [PDF and Mermaid Pipeline](PDF-and-Mermaid-Pipeline)
-7. [Operations and Deployment](Operations-and-Deployment)
-8. [Troubleshooting](Troubleshooting)
+5. [Script Integration](Script-Integration)
+6. [Tools and Agents](Tools-and-Agents)
+7. [PDF and Mermaid Pipeline](PDF-and-Mermaid-Pipeline)
+8. [Operations and Deployment](Operations-and-Deployment)
+9. [Troubleshooting](Troubleshooting)
 
 ## 安全原則
 
@@ -38,3 +39,10 @@
 - 不記錄工作區內部 session 檔或歷史封存內容
 - 只保留系統結構、操作方式與公開級別說明
 
+## 整合導讀
+
+如果你的重點是「如何從腳本或程式整合」，請優先閱讀：
+
+- [Script Integration](Script-Integration)
+- [Configuration](Configuration)
+- [Runtime Modes](Runtime-Modes)

@@ -8,7 +8,7 @@
     <title>公準AI 文件站</title>
     <meta
       name="description"
-      content="公準AI 公開文件站，整理系統架構、Web UI、執行模式、整合方式與腳本範例。"
+      content="公準AI 公開文件站，整理系統架構、Web UI、執行模式、整合方式、腳本範例與深入整合手冊。"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -18,12 +18,13 @@
         <div class="eyebrow">GONGINAI DOCS</div>
         <h1>公準AI 文件站</h1>
         <p class="lead">
-          這是一份公開、可閱讀、避免敏感資訊外流的文件網站，專門說明公準AI 的系統結構、啟動方式、整合方式與常用腳本範例。
+          這是一份公開、可閱讀、避免敏感資訊外流的文件網站，目標不是只放簡介，而是提供更接近正式技術文件等級的說明，包含系統架構、啟動方式、整合策略、腳本範例與部署觀念。
         </p>
         <div class="hero-meta">Yang Ethan 楊閔竣 · 2026 · 為公準精密建置</div>
         <nav class="hero-actions">
           <a href="#quickstart">快速開始</a>
           <a href="#integration">整合方式</a>
+          <a href="#manual">整合手冊</a>
           <a href="#scripts">腳本範例</a>
           <a href="#pages">文件頁面</a>
         </nav>
@@ -88,6 +89,26 @@ main([
         <pre><code>uvicorn app.web.server:app --host 0.0.0.0 --port 8000</code></pre>
       </section>
 
+      <section class="panel" id="manual">
+        <div class="section-tag">深入手冊</div>
+        <h2>腳本整合文件已提升到手冊級別</h2>
+        <p>
+          如果你的需求不是「怎麼點 UI」，而是「怎麼寫腳本、怎麼嵌入服務、怎麼做部署」，請直接閱讀
+          <a href="./Script-Integration.md">Script Integration</a>。
+        </p>
+        <p>這份手冊目前已包含：</p>
+        <ul class="clean-list">
+          <li>CLI 整合方式</li>
+          <li>Python 啟動器整合</li>
+          <li>ASGI 掛載方式</li>
+          <li>Shell script 啟動範例</li>
+          <li>PDF / Mermaid 產出範例</li>
+          <li>Runtime 模式選擇建議</li>
+          <li>systemd 服務化概念</li>
+          <li>常見整合錯誤排查</li>
+        </ul>
+      </section>
+
       <section class="grid two-up" id="scripts">
         <article class="panel">
           <div class="section-tag">腳本範例</div>
@@ -143,6 +164,7 @@ build_company_report(
           <a href="./System-Architecture.md">System Architecture</a>
           <a href="./Web-UI.md">Web UI</a>
           <a href="./Runtime-Modes.md">Runtime Modes</a>
+          <a href="./Script-Integration.md">Script Integration</a>
           <a href="./Configuration.md">Configuration</a>
           <a href="./Tools-and-Agents.md">Tools and Agents</a>
           <a href="./PDF-and-Mermaid-Pipeline.md">PDF and Mermaid Pipeline</a>
